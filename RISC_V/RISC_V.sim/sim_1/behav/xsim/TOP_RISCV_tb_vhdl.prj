@@ -1,0 +1,38 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../procesor_single_cycle.srcs/sources_1/new/ALU.vhd" \
+"../../../../procesor_single_cycle.srcs/sim_1/new/BRAM.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/CTRL_decoder.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/kontrol_reg_1.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/kontrol_reg_2.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/kontrol_reg_3.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/branch_I_kolo.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/alu_decoder.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/forwarding_unit.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/hazard_unit.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/control_mux.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/CONTROL_PATH.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/DATA_MEM.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/PC.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/MUX.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/instruction_memory.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/sabirac.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/instruction_fetch_phase.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/IF_ID_reg.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/reg_banka.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/immediate.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/pomerac.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/komparator.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/Instruction_decode_phase.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/ID_EX_reg.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/MUX_4bita.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/EXECUTE_phase.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/EX_mem_reg.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/MEM_WB_reg.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/DATA_PATH.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/TOP_RISCV.vhd" \
+"../../../../procesor_single_cycle.srcs/sources_1/new/txt_until.vhd" \
+"../../../../procesor_single_cycle.srcs/sim_1/new/TOP_RISCV_tb.vhd" \
+
+# Do not sort compile order
+nosort

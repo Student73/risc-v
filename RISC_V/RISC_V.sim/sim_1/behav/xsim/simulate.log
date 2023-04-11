@@ -1,0 +1,9 @@
+Vivado Simulator 2020.2
+Warning: File C:\Users\Olivera\Documents\risc-v\assembly_code.txt could not be opened
+on HDL file C:/Users/Olivera/Desktop/vhdl/procesor_single_cycle/procesor_single_cycle.srcs/sim_1/new/TOP_RISCV_tb.vhd line 17
+Time resolution is 1 ps
+ERROR: File C:\Users\Olivera\Documents\risc-v\assembly_code.txt is not open. Cannot call endfile on it
+Time: 0 ps  Iteration: 0  Process: /TOP_RISCV_tb/read_file_proc
+  File: C:/Users/Olivera/Desktop/vhdl/procesor_single_cycle/procesor_single_cycle.srcs/sim_1/new/TOP_RISCV_tb.vhd
+
+HDL Line: C:/Users/Olivera/Desktop/vhdl/procesor_single_cycle/procesor_single_cycle.srcs/sim_1/new/TOP_RISCV_tb.vhd:154

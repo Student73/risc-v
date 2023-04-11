@@ -1,0 +1,47 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 0a11428ce6094856bc2ee31dceac5d04 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TOP_RISCV_tb_behav xil_defaultlib.TOP_RISCV_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.txt_util
+Compiling architecture behavioral of entity xil_defaultlib.BRAM [bram_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC [pc_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX [mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_memory [instruction_memory_default]
+Compiling architecture behavioral of entity xil_defaultlib.sabirac [sabirac_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_fetch_phase [instruction_fetch_phase_default]
+Compiling architecture behavioral of entity xil_defaultlib.IF_ID_reg [if_id_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_banka [reg_banka_default]
+Compiling architecture behavioral of entity xil_defaultlib.immediate [immediate_default]
+Compiling architecture behavioral of entity xil_defaultlib.pomerac [pomerac_default]
+Compiling architecture behavioral of entity xil_defaultlib.komparator [komparator_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_decode_phase [instruction_decode_phase_default]
+Compiling architecture behavioral of entity xil_defaultlib.ID_EX_reg [id_ex_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_4bita [mux_4bita_default]
+Compiling architecture behavioral of entity xil_defaultlib.EXECUTE_phase [execute_phase_default]
+Compiling architecture behavioral of entity xil_defaultlib.EX_mem_reg [ex_mem_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.DATA_MEM [data_mem_default]
+Compiling architecture behavioral of entity xil_defaultlib.MEM_WB_reg [mem_wb_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.DATA_PATH [data_path_default]
+Compiling architecture behavioral of entity xil_defaultlib.CTRL_decoder [ctrl_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.kontrol_reg_1 [kontrol_reg_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.kontrol_reg_2 [kontrol_reg_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.kontrol_reg_3 [kontrol_reg_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.branch_I_kolo [branch_i_kolo_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_decoder [alu_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.forwarding_unit [forwarding_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.hazard_unit [hazard_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_mux [control_mux_default]
+Compiling architecture behavioral of entity xil_defaultlib.CONTROL_PATH [control_path_default]
+Compiling architecture behavioral of entity xil_defaultlib.TOP_RISCV [top_riscv_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_riscv_tb
+Built simulation snapshot TOP_RISCV_tb_behav
